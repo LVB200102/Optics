@@ -1,0 +1,28 @@
+html{
+  font-size: 18px;
+  font-family: Helvetica;
+}
+.container{
+  margin: auto;
+  max-width: 960px;
+}
+.container header{
+    display:flex;
+    background-color: cadetblue;
+    justify-content: space-between;
+    align-items: center;
+    color: white
+}
+header .nav{
+  color: white;
+  font-size: 1rem;
+  display: flex;
+  align-items: center;
+}
+header img{
+  height: 1.5rem;
+  margin-left: 2rem;
+  margin-right: 1rem;
+  display: flex;
+  align-items: center;
+}
