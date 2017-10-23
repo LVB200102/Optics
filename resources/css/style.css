@@ -50,16 +50,15 @@ header img{
   margin-top:15rem;
   padding: 2rem 3rem;
 }
-.pic img {
+.threeimg img {
   margin-top: 108px;
-  width: 4rem;
+  width: 4.5rem;
   margin-bottom: 1rem
-  height: 3rem;
   }
   .pic  {
     display: inline-flex;
     flex-direction: column;
-    justify-content: space-between;
+    justify-content: space-around;
     align-items: center;
     text-align: center;
     margin: 3rem;
