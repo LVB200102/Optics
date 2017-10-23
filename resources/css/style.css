@@ -55,6 +55,13 @@ header img{
   width: 4.5rem;
   margin-bottom: 1rem
   }
+  .pic.exam{
+    padding-left: 360px;
+  }
+  .pic.truck img , .pic.ruler img{
+    width: 4.5rem;
+    height: 3rem;
+  }
   .pic  {
     display: inline-flex;
     flex-direction: column;
@@ -64,4 +71,14 @@ header img{
     margin: 3rem;
     width: 5rem;
     height: 8rem;
+}
+ .middlesection{
+  display: inline-flex;
+  justify-content: center;
+  text-align: center;
+
+}
+div .info{
+  width: 38%;
+  flex-direction: column;
 }
