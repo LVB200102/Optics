@@ -55,9 +55,7 @@ header img{
   width: 4.5rem;
   margin-bottom: 1rem
   }
-  .pic.exam{
-    padding-left: 360px;
-  }
+
   .pic.truck img , .pic.ruler img{
     width: 4.5rem;
     height: 3rem;
@@ -69,16 +67,36 @@ header img{
     align-items: center;
     text-align: center;
     margin: 3rem;
-    width: 5rem;
+    width: 23%;
     height: 8rem;
 }
  .middlesection{
   display: inline-flex;
-  justify-content: center;
+  justify-content: space-around;
   text-align: center;
-
+width: 100%;
 }
 div .info{
-  width: 38%;
+  width: 100%;
   flex-direction: column;
+}
+.info.phil h1 {
+  background-color: cadetblue;
+  font-size:1rem;
+  font-weight:bold;
+  color: white;
+  width: 10rem;
+  
+}
+.info.app h1 {
+  margin-left: 1rem;
+  background-color: cadetblue;
+  font-size:1rem;
+  color:white;
+  padding:0.5rem, 1.25rem;
+  width: 10rem;
+}
+.info.app, .info.phil {
+  width: 35%;
+
 }
