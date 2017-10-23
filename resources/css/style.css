@@ -121,9 +121,38 @@ div .info{
  .container{
   width: 100%;
 }
- .tophalf{
-  padding-top: 0px;
-  height: 22rem;
+ div.content{
+   padding-top: 0px;
+ }
+ h1.phrase{
+   height: 1.5rem;
+   font-size: 1.5rem;
+   margin-top: 5rem;
+ }
+div.threeimg{
+  display: flex;
+margin-top: 30px;
+margin-bottom: 30px;
+}
+.footer{
+  width: 100%;
+}
+}
+@media only screen and (max-width: 500px){
+
+span.nav{
+  display: none;
+}
+.phrase{
+  width: 100%;
+}
+@media only screen and (max-width: 560px){
+
+.main-banner {
+    width: 100%;
+    text-align: center;
+    padding: 0px 1rem;
+    margin: 9rem auto 0px;
 }
 
 }
